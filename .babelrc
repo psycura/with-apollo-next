@@ -1,0 +1,28 @@
+{
+    "presets": [
+        "next/babel",
+        [
+            "@babel/preset-stage-0",
+            {
+                "decoratorsLegacy": true
+            }
+        ]
+    ],
+    "plugins": [
+        "transform-decorators-legacy",
+        "inline-react-svg",
+        [
+            "transform-assets-import-to-string",
+            {
+                "baseDir": "static",
+                "baseUri": "/"
+            }
+        ],
+        [
+            "emotion",
+            {
+                "inline": true
+            }
+        ]
+    ]
+}
