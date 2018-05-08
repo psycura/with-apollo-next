@@ -1,5 +1,4 @@
 import App, { Container } from 'next/app'
-import React from 'react'
 import './_app.scss';
 
 export default class MyApp extends App {
